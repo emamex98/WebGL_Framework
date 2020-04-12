@@ -57,6 +57,12 @@ function main() {
 	triangles.addVertex(0, 0.5, 0.);
 	triangles.addVertex(-0.3, 0.2, 0.);
 	triangles.addVertex(0.3, 0.2, 0.);
+	triangles.addVertex(-0.6, 0.0, 0.);
+	triangles.addVertex(-0.6, -0.3, 0.);
+	triangles.addVertex(-0.3, -0.3, 0.);
+	triangles.addVertex(0.6, 0.0, 0.);
+	triangles.addVertex(0.6, -0.3, 0.);
+	triangles.addVertex(0.3, -0.3, 0.);
 
 	// // FRAMEWORK: RENDER TRIANGLES
 	triangles.render();
