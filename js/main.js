@@ -47,25 +47,22 @@ function main() {
 	// UNCOMMENT SECTION TO DRAW TRIANGLES //
 
 	// // FRAMEWORK: INIT TRIANGLES
-	var triangles = new TriangleCollection();
+	// var triangles = new TriangleCollection();
 
 	// // FRAMEWORK: CHANGE TRIANGLE RENDER TYPE
 	// triangles.setType("TRIANGLE_STRIP");
 	// triangles.setType("TRIANGLE_FAN");
 
 	// // FRAMEWORK: ADD VERTICES TO ARRAY IN ORDER
-	triangles.addVertex(0, 0.5, 0.);
-	triangles.addVertex(-0.3, 0.2, 0.);
-	triangles.addVertex(0.3, 0.2, 0.);
-	triangles.addVertex(-0.6, 0.0, 0.);
-	triangles.addVertex(-0.6, -0.3, 0.);
-	triangles.addVertex(-0.3, -0.3, 0.);
-	triangles.addVertex(0.6, 0.0, 0.);
-	triangles.addVertex(0.6, -0.3, 0.);
-	triangles.addVertex(0.3, -0.3, 0.);
+	// triangles.addVertex(-0.3, 0.2, 0.);
+	// triangles.addVertex(0, 0.5, 0.);
+	// triangles.addVertex(0.3, 0.2, 0.);
+	// triangles.addVertex(0, -0.5, 0.);
+	// triangles.addVertex(0.5, -0.5, 0.);
+	// triangles.addVertex(0.5, -0.8, 0.);
 
 	// // FRAMEWORK: RENDER TRIANGLES
-	triangles.render();
+	// triangles.render();
 
 	// *************************************** //
 }
