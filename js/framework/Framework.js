@@ -161,11 +161,11 @@ class TriangleCollection{
   }
 
   setType(type){
-    if(type === "TRIANthis.scene.glES") {
+    if(type === "TRIANGLES") {
       this.type = this.scene.gl.TRIANGLES;
-    } else if(type === "TRIANthis.scene.glE_STRIP") {
+    } else if(type === "TRIANGLE_STRIP") {
       this.type = this.scene.gl.TRIANGLE_STRIP;
-    } else if(type === "TRIANthis.scene.glE_FAN") {
+    } else if(type === "TRIANGLE_FAN") {
       this.type = this.scene.gl.TRIANGLE_FAN;
     }
   }
