@@ -204,10 +204,8 @@ class TriangleCollection{
     gl.clear(gl.COLOR_BUFFER_BIT);
 
     // Draw scene
-    //var primitiveType = gl.POINTS;		// Primitive type to be rendered
-    //var primitiveType = gl.LINES;		// Dibuja lineas
     var primitiveType = this.type;	// Dibuja Triangulos
-    var count = this.indices.length;			// Number of elements (indices) to be rendered
+    var count = this.indexes;			// Number of elements (indices) to be rendered
     var type = gl.UNSIGNED_SHORT; 		// Value type in the element array buffer
     var offset = 0; 					// Bytes offset in the element array buffer
     gl.drawElements(primitiveType, count, type, offset);
